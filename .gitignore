@@ -1,0 +1,41 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Private research inputs and exports
+/data/private/
+/data/raw/
+/data/exports/
+/data/qa/
+# Separate local sponsorship reports contain non-project work data
+/sposorship-reports/
+# Incoming commercial archives must remain local
+*.zip
+*.7z
+*.rar
+/Proposals/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Dependencies and build outputs
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.venv/
+.venv-server/
+/secrets/
+/backups/
+/infra/.env
+__pycache__/
+*.pyc
+
+# Local generated files
+*.log
+.DS_Store
+Thumbs.db

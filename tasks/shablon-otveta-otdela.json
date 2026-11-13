@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Шаблон ответа; не выполненная задача и не результат исследования",
+  "task_id": "SF-01",
+  "status": "not_answered",
+  "respondent": null,
+  "answered_on": null,
+  "research_id": null,
+  "expected_revision": null,
+  "facts": [],
+  "hypotheses": [],
+  "human_decisions": [],
+  "evidence": [],
+  "unknowns": [],
+  "access_limitations": [],
+  "next_question": null,
+  "agreed_assignee": null,
+  "agreed_due": null
+}

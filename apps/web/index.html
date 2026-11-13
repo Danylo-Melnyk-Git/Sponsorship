@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Sponsorship — исследовательский кабинет</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <button class="wordmark" data-action="home" aria-label="Все исследования"><span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M9 29V12h8c5 0 7 3 7 8v9M24 12h7v17h-7M9 20h7"/><circle cx="31" cy="9" r="2"/></svg></span><span>Sponsorship<span class="brand-subtitle">исследовательский кабинет</span></span></button>
+    <div class="top-actions"><span class="local-label"><i></i> Локальное рабочее пространство</span><button class="theme-toggle" data-action="theme" type="button" aria-label="Включить тёмную тему" title="Включить тёмную тему">☾</button><button class="primary" data-action="new">Новое исследование</button></div>
+  </header>
+  <div class="workspace"><aside id="sidebar" aria-label="Исследования"></aside><main id="main"><div class="loading">Открываем рабочее пространство…</div></main></div>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="dialog"><div id="dialog-body"></div></dialog>
+</body>
+</html>

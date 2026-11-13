@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "status": "starting_configuration_not_verified_market_coverage",
+  "countries": {
+    "CL": {"name": "Chile", "languages": ["es", "en"], "source_seeds": ["https://ind.cl/unidad-de-grandes-eventos-deportivos-uged/", "https://teamchile.cl/", "https://www.patagonman.com/es/sponsors", "https://www.santiagowanderers.cl/"]},
+    "BR": {"name": "Brasil", "languages": ["pt", "en"], "source_seeds": []},
+    "MX": {"name": "México", "languages": ["es", "en"], "source_seeds": []},
+    "CO": {"name": "Colombia", "languages": ["es", "en"], "source_seeds": []},
+    "AR": {"name": "Argentina", "languages": ["es", "en"], "source_seeds": []},
+    "PE": {"name": "Perú", "languages": ["es", "en"], "source_seeds": []},
+    "EC": {"name": "Ecuador", "languages": ["es"], "source_seeds": []},
+    "UY": {"name": "Uruguay", "languages": ["es"], "source_seeds": []},
+    "PY": {"name": "Paraguay", "languages": ["es"], "source_seeds": []},
+    "BO": {"name": "Bolivia", "languages": ["es"], "source_seeds": []},
+    "VE": {"name": "Venezuela", "languages": ["es"], "source_seeds": []},
+    "CR": {"name": "Costa Rica", "languages": ["es"], "source_seeds": []},
+    "PA": {"name": "Panamá", "languages": ["es"], "source_seeds": []},
+    "GT": {"name": "Guatemala", "languages": ["es"], "source_seeds": []},
+    "SV": {"name": "El Salvador", "languages": ["es"], "source_seeds": []},
+    "HN": {"name": "Honduras", "languages": ["es"], "source_seeds": []},
+    "NI": {"name": "Nicaragua", "languages": ["es"], "source_seeds": []},
+    "DO": {"name": "República Dominicana", "languages": ["es"], "source_seeds": []},
+    "CU": {"name": "Cuba", "languages": ["es"], "source_seeds": []},
+    "PR": {"name": "Puerto Rico", "languages": ["es", "en"], "source_seeds": []},
+    "US": {"name": "United States", "languages": ["en"], "source_seeds": []},
+    "GB": {"name": "United Kingdom", "languages": ["en"], "source_seeds": []}
+  }
+}

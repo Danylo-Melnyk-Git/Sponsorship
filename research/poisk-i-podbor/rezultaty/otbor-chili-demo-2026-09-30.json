@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.0",
+  "tool_version": "0.1",
+  "as_of": "2026-09-30",
+  "brief_id": "demo-cl-2026-09-30-v1",
+  "brief_kind": "synthetic_brief_not_owner_company",
+  "status": "preliminary_research_queue",
+  "settings": {
+    "min_followers": 100000,
+    "follower_gate_kinds": [
+      "influencer",
+      "streamer"
+    ],
+    "metric_max_age_days": 7,
+    "max_search_calls": 18,
+    "max_pages": 24,
+    "num_results": 5
+  },
+  "input_kind": "public_source_probe_with_synthetic_brand",
+  "evidence": [
+    {
+      "id": "E-PATA-SP",
+      "url": "https://www.patagonman.com/es/sponsors",
+      "excerpt": "Si tú o tu compañía están interesados en apoyar",
+      "summary": "Организатор публикует приглашение к поддержке события и разделы партнёров; пакеты, ставки и свободные права не опубликованы.",
+      "independence_group": "patagonman",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-PATA-RACE",
+      "url": "https://www.patagonman.com/",
+      "excerpt": "DEC | 6 | 2026 | AYSEN, PATAGONIA",
+      "summary": "На странице заявлен триатлон в Айсене 6 декабря 2026 года. Дата из календаря организатора; наличие доступного пакета не подтверждено.",
+      "independence_group": "patagonman",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-MARATHON",
+      "url": "https://www.patagonianinternationalmarathon.com/en/about",
+      "excerpt": "runners from more than 65 countries",
+      "summary": "Организатор описывает международный марафон у Torres del Paine и планирует редакцию 2027 года на 4–5 сентября. Заявление о более чем 65 странах историческое, без доли Чили и периода аудитории.",
+      "independence_group": "racing_patagonia",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-ASTRO",
+      "url": "http://astrovlog.com/",
+      "excerpt": "I create online content on different platforms about astronomy, science and travels",
+      "summary": "Автор связывает Astrovlog с научной коммуникацией, астрономией и путешествиями на испанском; с сайта ведут ссылки на канал и подкасты. Счётчики, цены и GEO аудитории не установлены.",
+      "independence_group": "ricardo_garcia",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-ASTRO-ID",
+      "url": "http://astroblog.cl/autor/",
+      "excerpt": "Es creador del canal de youtube “Astrovlog”",
+      "summary": "Биография Ricardo García Soto связывает автора с Astrovlog и чилийскими образовательными/телевизионными проектами. Она не подтверждает актуальную аудиторию и активность в 2026 году.",
+      "independence_group": "ricardo_garcia",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-GUSTAVO",
+      "url": "https://gustavosaez.cl/",
+      "excerpt": "Descubre la ciencia detrás de la pastelería y cocina saludable",
+      "summary": "Сайт Gustavo Sáez посвящён кондитерскому делу и питанию, содержит раздел partners и продажи собственных книг/курсов. Цены этих товаров исключены из оценки сотрудничества.",
+      "independence_group": "gustavo_saez",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-GEPE",
+      "url": "https://www.seitrack.mx/gepe",
+      "excerpt": "el chileno ya destacaba como uno de los compositores",
+      "summary": "Агентский профиль связывает Gepe с чилийской музыкальной сценой и международными выступлениями; текст содержит планы на 2022 год. Текущее представительство, ставки и доступность требуют проверки.",
+      "independence_group": "seitrack",
+      "source_class": "agency_statement",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-VIDAURRE",
+      "url": "https://www.redbull.com/mea-en/athlete/martin-vidaurre",
+      "excerpt": "Disciplines | Mountainbike Cross Country / Road Cycling",
+      "summary": "Профиль бренда-спонсора описывает Martín Vidaurre как чилийского спортсмена MTB/шоссейного велоспорта и его международную карьеру. Ограничения действующих контрактов и доступность неизвестны.",
+      "independence_group": "redbull",
+      "source_class": "sponsor_statement",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-WANDERERS",
+      "url": "https://www.santiagowanderers.cl/",
+      "excerpt": "Santiago Wanderers es su gente, sus cerros y su alegría",
+      "summary": "Официальный сайт клуба указывает связь с Valparaíso и публикует клубный контент. Доля локальной аудитории, цена активаций и полномочия правообладателей не установлены.",
+      "independence_group": "wanderers",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    }
+  ],
+  "rows": [
+    {
+      "candidate_id": "patagonman",
+      "name": "PATAGONMAN",
+      "kind": "race",
+      "official_url": "https://www.patagonman.com/",
+      "opportunity_id": "patagonman-limited",
+      "package": "Гипотеза: партнёр отдельной активации/зоны триатлона; состав и права уточнить",
+      "package_status": "hypothesis",
+      "segment": "research_priority",
+      "fit": {
+        "lane": "direct",
+        "terms": [
+          "triathlon"
+        ],
+        "status": "hypothesis",
+        "bridges": []
+      },
+      "followers": {
+        "status": "not_applicable",
+        "reason": "Порог не применяется к этому типу"
+      },
+      "audience_geo": "needs_audience_geo",
+      "budget": {
+        "status": "plausible_unpriced",
+        "confidence": "hypothesis",
+        "price_range": null,
+        "hypothesis": {
+          "assessment": "plausible",
+          "brief_id": "demo-cl-2026-09-30-v1",
+          "budget_amount": 100000,
+          "currency": "USD",
+          "months": 12,
+          "budget_scope": "all_in",
+          "reason": "Для демонстрационного бюджета $100 тысяч в год разумно проверить ограниченную активацию специализированной гонки: организатор приглашает партнёров, а гипотеза не требует титульного или эксклюзивного статуса. Реальная ставка неизвестна.",
+          "assumptions": [
+            "Это оценка направления поиска, не рыночный ценовой диапазон",
+            "Свободный подходящий актив, производство и полные затраты требуют проверки"
+          ]
+        },
+        "reason": "Для демонстрационного бюджета $100 тысяч в год разумно проверить ограниченную активацию специализированной гонки: организатор приглашает партнёров, а гипотеза не требует титульного или эксклюзивного статуса. Реальная ставка неизвестна."
+      },
+      "risk": "not_checked",
+      "missing": [
+        "Доля целевых жителей Чили среди участников и зрителей",
+        "Свободные категории партнёров и стоимость производства",
+        "Проверить целевое GEO аудитории; происхождение кандидата недостаточно",
+        "Провести проверку риска человеком",
+        "Менеджеру выяснить доступность и условия",
+        "Уточнить цену и полную стоимость конкретного пакета"
+      ],
+      "evidence_ids": [
+        "E-PATA-RACE",
+        "E-PATA-SP"
+      ],
+      "human_moderation_required": true
+    },
+    {
+      "candidate_id": "pim",
+      "name": "Patagonian International Marathon",
+      "kind": "race",
+      "official_url": "https://www.patagonianinternationalmarathon.com/",
+      "opportunity_id": "pim-limited",
+      "package": "Гипотеза: ограниченное партнёрство редакции 2027 года",
+      "package_status": "hypothesis",
+      "segment": "research_priority",
+      "fit": {
+        "lane": "direct",
+        "terms": [
+          "running"
+        ],
+        "status": "hypothesis",
+        "bridges": []
+      },
+      "followers": {
+        "status": "not_applicable",
+        "reason": "Порог не применяется к этому типу"
+      },
+      "audience_geo": "needs_audience_geo",
+      "budget": {
+        "status": "unknown_price",
+        "confidence": "hypothesis",
+        "price_range": null,
+        "hypothesis": null,
+        "reason": "Ограниченный пакет можно исследовать; без бюджетной гипотезы доступность по цене не установлена"
+      },
+      "risk": "not_checked",
+      "missing": [
+        "Подтвердить календарь 2027 и сроки продажи прав",
+        "Не принять международное происхождение участников за целевое GEO",
+        "Проверить целевое GEO аудитории; происхождение кандидата недостаточно",
+        "Провести проверку риска человеком",
+        "Менеджеру выяснить доступность и условия",
+        "Уточнить цену и полную стоимость конкретного пакета"
+      ],
+      "evidence_ids": [
+        "E-MARATHON"
+      ],
+      "human_moderation_required": true
+    },
+    {
+      "candidate_id": "vidaurre",
+      "name": "Martín Vidaurre",
+      "kind": "athlete",
+      "official_url": "https://www.redbull.com/mea-en/athlete/martin-vidaurre",
+      "opportunity_id": "vidaurre-limited",
+      "package": "Гипотеза: ограниченная неэксклюзивная контентная активация",
+      "package_status": "hypothesis",
+      "segment": "research_priority",
+      "fit": {
+        "lane": "direct",
+        "terms": [
+          "cycling"
+        ],
+        "status": "hypothesis",
+        "bridges": []
+      },
+      "followers": {
+        "status": "not_applicable",
+        "reason": "Порог не применяется к этому типу"
+      },
+      "audience_geo": "needs_audience_geo",
+      "budget": {
+        "status": "unknown_price",
+        "confidence": "hypothesis",
+        "price_range": null,
+        "hypothesis": null,
+        "reason": "Ограниченный пакет можно исследовать; без бюджетной гипотезы доступность по цене не установлена"
+      },
+      "risk": "not_checked",
+      "missing": [
+        "Проверить конфликты существующих спонсорских категорий",
+        "Чилийское происхождение не подтверждает долю Чили в медийной аудитории",
+        "Проверить целевое GEO аудитории; происхождение кандидата недостаточно",
+        "Провести проверку риска человеком",
+        "Менеджеру выяснить доступность и условия",
+        "Уточнить цену и полную стоимость конкретного пакета"
+      ],
+      "evidence_ids": [
+        "E-VIDAURRE"
+      ],
+      "human_moderation_required": true
+    },
+    {
+      "candidate_id": "wanderers",
+      "name": "Santiago Wanderers",
+      "kind": "club",
+      "official_url": "https://www.santiagowanderers.cl/",
+      "opportunity_id": "wanderers-limited",
+      "package": "Гипотеза: локальная клубная активация с ограниченными правами",
+      "package_status": "hypothesis",
+      "segment": "research_priority",
+      "fit": {
+        "lane": "audience",
+        "terms": [
+          "football"
+        ],
+        "status": "hypothesis",
+        "bridges": []
+      },
+      "followers": {
+        "status": "not_applicable",
+        "reason": "Порог не применяется к этому типу"
+      },
+      "audience_geo": "needs_audience_geo",
+      "budget": {
+        "status": "plausible_unpriced",
+        "confidence": "hypothesis",
+        "price_range": null,
+        "hypothesis": {
+          "assessment": "plausible",
+          "brief_id": "demo-cl-2026-09-30-v1",
+          "budget_amount": 100000,
+          "currency": "USD",
+          "months": 12,
+          "budget_scope": "all_in",
+          "reason": "Под демонстрационный годовой бюджет $100 тысяч имеет смысл проверить отдельный локальный актив клуба. Гипотеза ограничивает объём прав и не предполагает главного спонсорства; опубликованной ставки нет.",
+          "assumptions": [
+            "Территориальная связь клуба не доказывает низкую цену",
+            "Правообладатель, доступность актива и расходы на активацию неизвестны"
+          ]
+        },
+        "reason": "Под демонстрационный годовой бюджет $100 тысяч имеет смысл проверить отдельный локальный актив клуба. Гипотеза ограничивает объём прав и не предполагает главного спонсорства; опубликованной ставки нет."
+      },
+      "risk": "not_checked",
+      "missing": [
+        "Проверить правообладателя конкретного актива: профессиональный клуб и Corporación нельзя объединять автоматически",
+        "Получить данные о местной аудитории и составе коммерческого пакета",
+        "Проверить целевое GEO аудитории; происхождение кандидата недостаточно",
+        "Провести проверку риска человеком",
+        "Менеджеру выяснить доступность и условия",
+        "Уточнить цену и полную стоимость конкретного пакета"
+      ],
+      "evidence_ids": [
+        "E-WANDERERS"
+      ],
+      "human_moderation_required": true
+    },
+    {
+      "candidate_id": "gepe",
+      "name": "Gepe",
+      "kind": "musician",
+      "official_url": "https://www.seitrack.mx/gepe",
+      "opportunity_id": "gepe-limited",
+      "package": "Гипотеза: отдельная локальная активация с артистом",
+      "package_status": "hypothesis",
+      "segment": "alternative",
+      "fit": {
+        "lane": "adjacent",
+        "terms": [
+          "music"
+        ],
+        "status": "hypothesis",
+        "bridges": [
+          {
+            "term": "music",
+            "reason": "Гипотеза: городские музыкальные события могут дать контакт с нужной ЦА; демография и GEO неизвестны."
+          }
+        ]
+      },
+      "followers": {
+        "status": "not_applicable",
+        "reason": "Порог не применяется к этому типу"
+      },
+      "audience_geo": "needs_audience_geo",
+      "budget": {
+        "status": "unknown_price",
+        "confidence": "hypothesis",
+        "price_range": null,
+        "hypothesis": null,
+        "reason": "Ограниченный пакет можно исследовать; без бюджетной гипотезы доступность по цене не установлена"
+      },
+      "risk": "not_checked",
+      "missing": [
+        "Обновить представительство: профиль содержит планы на 2022 год",
+        "Цена выступления не равна годовому амбассадорству; уточнить формат и права",
+        "Проверить целевое GEO аудитории; происхождение кандидата недостаточно",
+        "Провести проверку риска человеком",
+        "Менеджеру выяснить доступность и условия",
+        "Уточнить цену и полную стоимость конкретного пакета"
+      ],
+      "evidence_ids": [
+        "E-GEPE"
+      ],
+      "human_moderation_required": true
+    },
+    {
+      "candidate_id": "astrovlog",
+      "name": "Astrovlog / Ricardo García",
+      "kind": "influencer",
+      "official_url": "http://astrovlog.com/",
+      "opportunity_id": "astrovlog-limited",
+      "package": "Гипотеза: отдельный сюжет о поездке/наблюдении неба с интеграцией бренда",
+      "package_status": "hypothesis",
+      "segment": "needs_data",
+      "fit": {
+        "lane": "audience",
+        "terms": [
+          "travel"
+        ],
+        "status": "hypothesis",
+        "bridges": []
+      },
+      "followers": {
+        "status": "pending",
+        "reason": "Нет полного свежего подтверждения отдельной платформы"
+      },
+      "audience_geo": "needs_audience_geo",
+      "budget": {
+        "status": "limited_package_to_price",
+        "confidence": "hypothesis",
+        "price_range": null,
+        "hypothesis": null,
+        "reason": "Ограниченный пакет можно исследовать; без бюджетной гипотезы доступность по цене не установлена"
+      },
+      "risk": "not_checked",
+      "missing": [
+        "Подтвердить актуальную активность и счётчик на одной платформе",
+        "Проверить косвенный тематический мост по контенту и ЦА",
+        "Проверить порог на отдельной платформе",
+        "Проверить целевое GEO аудитории; происхождение кандидата недостаточно",
+        "Провести проверку риска человеком",
+        "Менеджеру выяснить доступность и условия",
+        "Уточнить цену и полную стоимость конкретного пакета"
+      ],
+      "evidence_ids": [
+        "E-ASTRO",
+        "E-ASTRO-ID"
+      ],
+      "human_moderation_required": true
+    },
+    {
+      "candidate_id": "gustavo",
+      "name": "Gustavo Sáez",
+      "kind": "influencer",
+      "official_url": "https://gustavosaez.cl/",
+      "opportunity_id": "gustavo-limited",
+      "package": "Гипотеза: серия контента о питании в дороге; тематический мост требует проверки",
+      "package_status": "hypothesis",
+      "segment": "needs_data",
+      "fit": {
+        "lane": "adjacent",
+        "terms": [
+          "food"
+        ],
+        "status": "hypothesis",
+        "bridges": [
+          {
+            "term": "food",
+            "reason": "Гипотеза: питание в дороге или при активном образе жизни; тематическая связь сама по себе не подтверждает ЦА."
+          }
+        ]
+      },
+      "followers": {
+        "status": "pending",
+        "reason": "Нет полного свежего подтверждения отдельной платформы"
+      },
+      "audience_geo": "needs_audience_geo",
+      "budget": {
+        "status": "limited_package_to_price",
+        "confidence": "hypothesis",
+        "price_range": null,
+        "hypothesis": null,
+        "reason": "Ограниченный пакет можно исследовать; без бюджетной гипотезы доступность по цене не установлена"
+      },
+      "risk": "not_checked",
+      "missing": [
+        "Найти и связать официальные соцаккаунты, проверить порог",
+        "Не использовать цену курса как ставку автора",
+        "Проверить порог на отдельной платформе",
+        "Проверить целевое GEO аудитории; происхождение кандидата недостаточно",
+        "Провести проверку риска человеком",
+        "Менеджеру выяснить доступность и условия",
+        "Уточнить цену и полную стоимость конкретного пакета"
+      ],
+      "evidence_ids": [
+        "E-GUSTAVO"
+      ],
+      "human_moderation_required": true
+    }
+  ],
+  "duplicates": [],
+  "numeric_suitability_score": null,
+  "market_price_model_validated": false,
+  "research_cost_usd": null,
+  "network_execution_log": {
+    "provider": "Exa via connected Codex MCP",
+    "search_calls": 10,
+    "requested_search_slots": 50,
+    "search_results_are_leads": true,
+    "page_fetch_calls": 3,
+    "attempted_page_urls": 13,
+    "successful_page_urls": 13,
+    "corpus_evidence_urls": 9,
+    "plan_task_ids": [],
+    "scope": "Technical documents and selected Chilean discovery angles; generated search matrix was not fully executed",
+    "source_snapshot_age": "Provider cache age not returned",
+    "paid_subscription_created": false
+  },
+  "planned_search_coverage": "not_assessed"
+}

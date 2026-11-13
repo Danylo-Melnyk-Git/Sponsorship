@@ -1,0 +1,681 @@
+{
+  "schema_version": "1.0",
+  "kind": "public_source_probe_with_synthetic_brand",
+  "as_of": "2026-09-30",
+  "research_cost_usd": null,
+  "execution_log": {
+    "provider": "Exa via connected Codex MCP",
+    "search_calls": 10,
+    "requested_search_slots": 50,
+    "search_results_are_leads": true,
+    "page_fetch_calls": 3,
+    "attempted_page_urls": 13,
+    "successful_page_urls": 13,
+    "corpus_evidence_urls": 9,
+    "plan_task_ids": [],
+    "scope": "Technical documents and selected Chilean discovery angles; generated search matrix was not fully executed",
+    "source_snapshot_age": "Provider cache age not returned",
+    "paid_subscription_created": false
+  },
+  "evidence": [
+    {
+      "id": "E-PATA-SP",
+      "url": "https://www.patagonman.com/es/sponsors",
+      "excerpt": "Si tú o tu compañía están interesados en apoyar",
+      "summary": "Организатор публикует приглашение к поддержке события и разделы партнёров; пакеты, ставки и свободные права не опубликованы.",
+      "independence_group": "patagonman",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-PATA-RACE",
+      "url": "https://www.patagonman.com/",
+      "excerpt": "DEC | 6 | 2026 | AYSEN, PATAGONIA",
+      "summary": "На странице заявлен триатлон в Айсене 6 декабря 2026 года. Дата из календаря организатора; наличие доступного пакета не подтверждено.",
+      "independence_group": "patagonman",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-MARATHON",
+      "url": "https://www.patagonianinternationalmarathon.com/en/about",
+      "excerpt": "runners from more than 65 countries",
+      "summary": "Организатор описывает международный марафон у Torres del Paine и планирует редакцию 2027 года на 4–5 сентября. Заявление о более чем 65 странах историческое, без доли Чили и периода аудитории.",
+      "independence_group": "racing_patagonia",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-ASTRO",
+      "url": "http://astrovlog.com/",
+      "excerpt": "I create online content on different platforms about astronomy, science and travels",
+      "summary": "Автор связывает Astrovlog с научной коммуникацией, астрономией и путешествиями на испанском; с сайта ведут ссылки на канал и подкасты. Счётчики, цены и GEO аудитории не установлены.",
+      "independence_group": "ricardo_garcia",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-ASTRO-ID",
+      "url": "http://astroblog.cl/autor/",
+      "excerpt": "Es creador del canal de youtube “Astrovlog”",
+      "summary": "Биография Ricardo García Soto связывает автора с Astrovlog и чилийскими образовательными/телевизионными проектами. Она не подтверждает актуальную аудиторию и активность в 2026 году.",
+      "independence_group": "ricardo_garcia",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-GUSTAVO",
+      "url": "https://gustavosaez.cl/",
+      "excerpt": "Descubre la ciencia detrás de la pastelería y cocina saludable",
+      "summary": "Сайт Gustavo Sáez посвящён кондитерскому делу и питанию, содержит раздел partners и продажи собственных книг/курсов. Цены этих товаров исключены из оценки сотрудничества.",
+      "independence_group": "gustavo_saez",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-GEPE",
+      "url": "https://www.seitrack.mx/gepe",
+      "excerpt": "el chileno ya destacaba como uno de los compositores",
+      "summary": "Агентский профиль связывает Gepe с чилийской музыкальной сценой и международными выступлениями; текст содержит планы на 2022 год. Текущее представительство, ставки и доступность требуют проверки.",
+      "independence_group": "seitrack",
+      "source_class": "agency_statement",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-VIDAURRE",
+      "url": "https://www.redbull.com/mea-en/athlete/martin-vidaurre",
+      "excerpt": "Disciplines | Mountainbike Cross Country / Road Cycling",
+      "summary": "Профиль бренда-спонсора описывает Martín Vidaurre как чилийского спортсмена MTB/шоссейного велоспорта и его международную карьеру. Ограничения действующих контрактов и доступность неизвестны.",
+      "independence_group": "redbull",
+      "source_class": "sponsor_statement",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    },
+    {
+      "id": "E-WANDERERS",
+      "url": "https://www.santiagowanderers.cl/",
+      "excerpt": "Santiago Wanderers es su gente, sus cerros y su alegría",
+      "summary": "Официальный сайт клуба указывает связь с Valparaíso и публикует клубный контент. Доля локальной аудитории, цена активаций и полномочия правообладателей не установлены.",
+      "independence_group": "wanderers",
+      "source_class": "official_self_report",
+      "access": "page_read",
+      "retrieved_on": "2026-09-30",
+      "published_on": null,
+      "event_on": null,
+      "connector": "mcp__codex_apps__exa_web_fetch_exa",
+      "connector_version": null,
+      "retrieval_freshness": "provider_cache_policy_unspecified"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "patagonman",
+      "name": "PATAGONMAN",
+      "kind": "race",
+      "entity_key": "official:https://www.patagonman.com/",
+      "official_url": "https://www.patagonman.com/",
+      "topic_claims": [
+        {
+          "term": "triathlon",
+          "evidence_ids": [
+            "E-PATA-SP",
+            "E-PATA-RACE"
+          ]
+        },
+        {
+          "term": "travel",
+          "evidence_ids": [
+            "E-PATA-SP",
+            "E-PATA-RACE"
+          ]
+        }
+      ],
+      "geo_context": {
+        "countries": [
+          "CL"
+        ],
+        "basis": "origin_or_location_only",
+        "evidence_ids": [
+          "E-PATA-SP",
+          "E-PATA-RACE"
+        ]
+      },
+      "scale": {
+        "level": "niche",
+        "evidence_ids": [
+          "E-PATA-SP",
+          "E-PATA-RACE"
+        ],
+        "status": "researcher_scope_assessment_not_fee_tier"
+      },
+      "metrics": [],
+      "platform_scan_complete": false,
+      "audience_geo": {
+        "basis": "unknown",
+        "countries": [],
+        "evidence_ids": [],
+        "measured_on": null
+      },
+      "risk": {
+        "status": "not_checked",
+        "evidence_ids": []
+      },
+      "availability": {
+        "status": "unknown",
+        "evidence_ids": []
+      },
+      "opportunities": [
+        {
+          "id": "patagonman-limited",
+          "description": "Гипотеза: партнёр отдельной активации/зоны триатлона; состав и права уточнить",
+          "budget_hypothesis": {
+            "assessment": "plausible",
+            "brief_id": "demo-cl-2026-09-30-v1",
+            "budget_amount": 100000,
+            "currency": "USD",
+            "months": 12,
+            "budget_scope": "all_in",
+            "reason": "Для демонстрационного бюджета $100 тысяч в год разумно проверить ограниченную активацию специализированной гонки: организатор приглашает партнёров, а гипотеза не требует титульного или эксклюзивного статуса. Реальная ставка неизвестна.",
+            "assumptions": ["Это оценка направления поиска, не рыночный ценовой диапазон", "Свободный подходящий актив, производство и полные затраты требуют проверки"]
+          },
+          "scope": "limited_nonexclusive",
+          "territory": [
+            "CL"
+          ],
+          "event_on": "2026-12-06",
+          "cost": {
+            "status": "unknown",
+            "low": null,
+            "high": null,
+            "evidence_ids": []
+          }
+        }
+      ],
+      "open_questions": [
+        "Доля целевых жителей Чили среди участников и зрителей",
+        "Свободные категории партнёров и стоимость производства"
+      ]
+    },
+    {
+      "id": "pim",
+      "name": "Patagonian International Marathon",
+      "kind": "race",
+      "entity_key": "official:https://www.patagonianinternationalmarathon.com/",
+      "official_url": "https://www.patagonianinternationalmarathon.com/",
+      "topic_claims": [
+        {
+          "term": "running",
+          "evidence_ids": [
+            "E-MARATHON"
+          ]
+        },
+        {
+          "term": "travel",
+          "evidence_ids": [
+            "E-MARATHON"
+          ]
+        }
+      ],
+      "geo_context": {
+        "countries": [
+          "CL"
+        ],
+        "basis": "origin_or_location_only",
+        "evidence_ids": [
+          "E-MARATHON"
+        ]
+      },
+      "scale": {
+        "level": "international",
+        "evidence_ids": [
+          "E-MARATHON"
+        ],
+        "status": "researcher_scope_assessment_not_fee_tier"
+      },
+      "metrics": [],
+      "platform_scan_complete": false,
+      "audience_geo": {
+        "basis": "unknown",
+        "countries": [],
+        "evidence_ids": [],
+        "measured_on": null
+      },
+      "risk": {
+        "status": "not_checked",
+        "evidence_ids": []
+      },
+      "availability": {
+        "status": "unknown",
+        "evidence_ids": []
+      },
+      "opportunities": [
+        {
+          "id": "pim-limited",
+          "description": "Гипотеза: ограниченное партнёрство редакции 2027 года",
+          "scope": "limited_nonexclusive",
+          "territory": [
+            "CL"
+          ],
+          "event_on": "2027-09-04",
+          "cost": {
+            "status": "unknown",
+            "low": null,
+            "high": null,
+            "evidence_ids": []
+          }
+        }
+      ],
+      "open_questions": [
+        "Подтвердить календарь 2027 и сроки продажи прав",
+        "Не принять международное происхождение участников за целевое GEO"
+      ]
+    },
+    {
+      "id": "astrovlog",
+      "name": "Astrovlog / Ricardo García",
+      "kind": "influencer",
+      "entity_key": "official:http://astrovlog.com/",
+      "official_url": "http://astrovlog.com/",
+      "topic_claims": [
+        {
+          "term": "astronomy",
+          "evidence_ids": [
+            "E-ASTRO",
+            "E-ASTRO-ID"
+          ]
+        },
+        {
+          "term": "travel",
+          "evidence_ids": [
+            "E-ASTRO",
+            "E-ASTRO-ID"
+          ]
+        }
+      ],
+      "geo_context": {
+        "countries": [
+          "CL"
+        ],
+        "basis": "origin_or_location_only",
+        "evidence_ids": [
+          "E-ASTRO",
+          "E-ASTRO-ID"
+        ]
+      },
+      "scale": {
+        "level": "niche",
+        "evidence_ids": [
+          "E-ASTRO",
+          "E-ASTRO-ID"
+        ],
+        "status": "researcher_scope_assessment_not_fee_tier"
+      },
+      "metrics": [],
+      "platform_scan_complete": false,
+      "audience_geo": {
+        "basis": "unknown",
+        "countries": [],
+        "evidence_ids": [],
+        "measured_on": null
+      },
+      "risk": {
+        "status": "not_checked",
+        "evidence_ids": []
+      },
+      "availability": {
+        "status": "unknown",
+        "evidence_ids": []
+      },
+      "opportunities": [
+        {
+          "id": "astrovlog-limited",
+          "description": "Гипотеза: отдельный сюжет о поездке/наблюдении неба с интеграцией бренда",
+          "scope": "limited_nonexclusive",
+          "territory": [
+            "CL"
+          ],
+          "event_on": null,
+          "cost": {
+            "status": "unknown",
+            "low": null,
+            "high": null,
+            "evidence_ids": []
+          }
+        }
+      ],
+      "open_questions": [
+        "Подтвердить актуальную активность и счётчик на одной платформе",
+        "Проверить косвенный тематический мост по контенту и ЦА"
+      ]
+    },
+    {
+      "id": "gustavo",
+      "name": "Gustavo Sáez",
+      "kind": "influencer",
+      "entity_key": "official:https://gustavosaez.cl/",
+      "official_url": "https://gustavosaez.cl/",
+      "topic_claims": [
+        {
+          "term": "food",
+          "evidence_ids": [
+            "E-GUSTAVO"
+          ]
+        }
+      ],
+      "geo_context": {
+        "countries": [
+          "CL"
+        ],
+        "basis": "origin_or_location_only",
+        "evidence_ids": [
+          "E-GUSTAVO"
+        ]
+      },
+      "scale": {
+        "level": "niche",
+        "evidence_ids": [
+          "E-GUSTAVO"
+        ],
+        "status": "researcher_scope_assessment_not_fee_tier"
+      },
+      "metrics": [],
+      "platform_scan_complete": false,
+      "audience_geo": {
+        "basis": "unknown",
+        "countries": [],
+        "evidence_ids": [],
+        "measured_on": null
+      },
+      "risk": {
+        "status": "not_checked",
+        "evidence_ids": []
+      },
+      "availability": {
+        "status": "unknown",
+        "evidence_ids": []
+      },
+      "opportunities": [
+        {
+          "id": "gustavo-limited",
+          "description": "Гипотеза: серия контента о питании в дороге; тематический мост требует проверки",
+          "scope": "limited_nonexclusive",
+          "territory": [
+            "CL"
+          ],
+          "event_on": null,
+          "cost": {
+            "status": "unknown",
+            "low": null,
+            "high": null,
+            "evidence_ids": []
+          }
+        }
+      ],
+      "open_questions": [
+        "Найти и связать официальные соцаккаунты, проверить порог",
+        "Не использовать цену курса как ставку автора"
+      ]
+    },
+    {
+      "id": "gepe",
+      "name": "Gepe",
+      "kind": "musician",
+      "entity_key": "official:https://www.seitrack.mx/gepe",
+      "official_url": "https://www.seitrack.mx/gepe",
+      "topic_claims": [
+        {
+          "term": "music",
+          "evidence_ids": [
+            "E-GEPE"
+          ]
+        }
+      ],
+      "geo_context": {
+        "countries": [
+          "CL"
+        ],
+        "basis": "origin_or_location_only",
+        "evidence_ids": [
+          "E-GEPE"
+        ]
+      },
+      "scale": {
+        "level": "international",
+        "evidence_ids": [
+          "E-GEPE"
+        ],
+        "status": "researcher_scope_assessment_not_fee_tier"
+      },
+      "metrics": [],
+      "platform_scan_complete": false,
+      "audience_geo": {
+        "basis": "unknown",
+        "countries": [],
+        "evidence_ids": [],
+        "measured_on": null
+      },
+      "risk": {
+        "status": "not_checked",
+        "evidence_ids": []
+      },
+      "availability": {
+        "status": "unknown",
+        "evidence_ids": []
+      },
+      "opportunities": [
+        {
+          "id": "gepe-limited",
+          "description": "Гипотеза: отдельная локальная активация с артистом",
+          "scope": "limited_nonexclusive",
+          "territory": [
+            "CL"
+          ],
+          "event_on": null,
+          "cost": {
+            "status": "unknown",
+            "low": null,
+            "high": null,
+            "evidence_ids": []
+          }
+        }
+      ],
+      "open_questions": [
+        "Обновить представительство: профиль содержит планы на 2022 год",
+        "Цена выступления не равна годовому амбассадорству; уточнить формат и права"
+      ]
+    },
+    {
+      "id": "vidaurre",
+      "name": "Martín Vidaurre",
+      "kind": "athlete",
+      "entity_key": "official:https://www.redbull.com/mea-en/athlete/martin-vidaurre",
+      "official_url": "https://www.redbull.com/mea-en/athlete/martin-vidaurre",
+      "topic_claims": [
+        {
+          "term": "cycling",
+          "evidence_ids": [
+            "E-VIDAURRE"
+          ]
+        }
+      ],
+      "geo_context": {
+        "countries": [
+          "CL"
+        ],
+        "basis": "origin_or_location_only",
+        "evidence_ids": [
+          "E-VIDAURRE"
+        ]
+      },
+      "scale": {
+        "level": "international",
+        "evidence_ids": [
+          "E-VIDAURRE"
+        ],
+        "status": "researcher_scope_assessment_not_fee_tier"
+      },
+      "metrics": [],
+      "platform_scan_complete": false,
+      "audience_geo": {
+        "basis": "unknown",
+        "countries": [],
+        "evidence_ids": [],
+        "measured_on": null
+      },
+      "risk": {
+        "status": "not_checked",
+        "evidence_ids": []
+      },
+      "availability": {
+        "status": "unknown",
+        "evidence_ids": []
+      },
+      "opportunities": [
+        {
+          "id": "vidaurre-limited",
+          "description": "Гипотеза: ограниченная неэксклюзивная контентная активация",
+          "scope": "limited_nonexclusive",
+          "territory": [
+            "CL"
+          ],
+          "event_on": null,
+          "cost": {
+            "status": "unknown",
+            "low": null,
+            "high": null,
+            "evidence_ids": []
+          }
+        }
+      ],
+      "open_questions": [
+        "Проверить конфликты существующих спонсорских категорий",
+        "Чилийское происхождение не подтверждает долю Чили в медийной аудитории"
+      ]
+    },
+    {
+      "id": "wanderers",
+      "name": "Santiago Wanderers",
+      "kind": "club",
+      "entity_key": "official:https://www.santiagowanderers.cl/",
+      "official_url": "https://www.santiagowanderers.cl/",
+      "topic_claims": [
+        {
+          "term": "football",
+          "evidence_ids": [
+            "E-WANDERERS"
+          ]
+        }
+      ],
+      "geo_context": {
+        "countries": [
+          "CL"
+        ],
+        "basis": "origin_or_location_only",
+        "evidence_ids": [
+          "E-WANDERERS"
+        ]
+      },
+      "scale": {
+        "level": "local",
+        "evidence_ids": [
+          "E-WANDERERS"
+        ],
+        "status": "researcher_scope_assessment_not_fee_tier"
+      },
+      "metrics": [],
+      "platform_scan_complete": false,
+      "audience_geo": {
+        "basis": "unknown",
+        "countries": [],
+        "evidence_ids": [],
+        "measured_on": null
+      },
+      "risk": {
+        "status": "not_checked",
+        "evidence_ids": []
+      },
+      "availability": {
+        "status": "unknown",
+        "evidence_ids": []
+      },
+      "opportunities": [
+        {
+          "id": "wanderers-limited",
+          "description": "Гипотеза: локальная клубная активация с ограниченными правами",
+          "budget_hypothesis": {
+            "assessment": "plausible",
+            "brief_id": "demo-cl-2026-09-30-v1",
+            "budget_amount": 100000,
+            "currency": "USD",
+            "months": 12,
+            "budget_scope": "all_in",
+            "reason": "Под демонстрационный годовой бюджет $100 тысяч имеет смысл проверить отдельный локальный актив клуба. Гипотеза ограничивает объём прав и не предполагает главного спонсорства; опубликованной ставки нет.",
+            "assumptions": ["Территориальная связь клуба не доказывает низкую цену", "Правообладатель, доступность актива и расходы на активацию неизвестны"]
+          },
+          "scope": "limited_nonexclusive",
+          "territory": [
+            "CL"
+          ],
+          "event_on": null,
+          "cost": {
+            "status": "unknown",
+            "low": null,
+            "high": null,
+            "evidence_ids": []
+          }
+        }
+      ],
+      "open_questions": [
+        "Проверить правообладателя конкретного актива: профессиональный клуб и Corporación нельзя объединять автоматически",
+        "Получить данные о местной аудитории и составе коммерческого пакета"
+      ]
+    }
+  ]
+}

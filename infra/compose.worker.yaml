@@ -1,0 +1,28 @@
+# Optional operator-only draft worker. API enqueue/UI is not connected yet.
+services:
+  worker:
+    build: .
+    command: [python, deploy.py, worker]
+    environment:
+      SPONSOR_PUBLIC_URL: https://${DOMAIN:?Set DOMAIN}
+      SPONSOR_LLM_PROVIDER: ${SPONSOR_LLM_PROVIDER:-disabled}
+      SPONSOR_LLM_MODEL: ${SPONSOR_LLM_MODEL:-}
+      OPENAI_API_KEY_FILE: /run/secrets/openai_api_key
+      ANTHROPIC_API_KEY_FILE: /run/secrets/anthropic_api_key
+      EXA_API_KEY_FILE: /run/secrets/exa_api_key
+    volumes: [jobs:/data/jobs]
+    secrets: [openai_api_key, anthropic_api_key, exa_api_key]
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 384m
+secrets:
+  openai_api_key:
+    file: ./secrets/openai_api_key
+  anthropic_api_key:
+    file: ./secrets/anthropic_api_key
+  exa_api_key:
+    file: ./secrets/exa_api_key
+volumes:
+  jobs:

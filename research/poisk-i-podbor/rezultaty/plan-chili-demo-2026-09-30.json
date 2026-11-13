@@ -1,0 +1,562 @@
+{
+  "schema_version": "1.0",
+  "tool_version": "0.1",
+  "brief_id": "demo-cl-2026-09-30-v1",
+  "brief_kind": "synthetic_brief_not_owner_company",
+  "settings": {
+    "min_followers": 100000,
+    "follower_gate_kinds": [
+      "influencer",
+      "streamer"
+    ],
+    "metric_max_age_days": 7,
+    "max_search_calls": 18,
+    "max_pages": 24,
+    "num_results": 5
+  },
+  "collaboration_budget": {
+    "amount": 100000,
+    "currency": "USD",
+    "months": 12,
+    "scope": "all_in",
+    "non_fee_costs": null
+  },
+  "network_executed": false,
+  "research_cost_usd": null,
+  "adjacent_bridges": [
+    {
+      "term": "astronomy",
+      "reason": "Гипотеза: наблюдения неба и поездки могут пересекаться с интересом к природе; проверить аудиторию и подходящий сюжет."
+    },
+    {
+      "term": "music",
+      "reason": "Гипотеза: городские музыкальные события могут дать контакт с нужной ЦА; демография и GEO неизвестны."
+    },
+    {
+      "term": "food",
+      "reason": "Гипотеза: питание в дороге или при активном образе жизни; тематическая связь сама по себе не подтверждает ЦА."
+    }
+  ],
+  "scheduled": [
+    {
+      "id": "CL-es-creators-direct",
+      "geo": "CL",
+      "language": "es",
+      "category": "creators",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de creadores y divulgadores con canales propios vinculados a running, triathlon, cycling en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-athletes-direct",
+      "geo": "CL",
+      "language": "es",
+      "category": "athletes",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de deportistas de disciplinas especializadas vinculados a running, triathlon, cycling en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-music-direct",
+      "geo": "CL",
+      "language": "es",
+      "category": "music",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de músicos artistas y sellos independientes vinculados a running, triathlon, cycling en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-teams-direct",
+      "geo": "CL",
+      "language": "es",
+      "category": "teams",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de clubes equipos ligas y federaciones vinculados a running, triathlon, cycling en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-events-direct",
+      "geo": "CL",
+      "language": "es",
+      "category": "events",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de torneos eventos carreras y festivales vinculados a running, triathlon, cycling en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-gaming_media-direct",
+      "geo": "CL",
+      "language": "es",
+      "category": "gaming_media",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de esports streamers podcasts y medios temáticos vinculados a running, triathlon, cycling en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-creators-audience",
+      "geo": "CL",
+      "language": "es",
+      "category": "creators",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de creadores y divulgadores con canales propios vinculados a travel, football en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-athletes-audience",
+      "geo": "CL",
+      "language": "es",
+      "category": "athletes",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de deportistas de disciplinas especializadas vinculados a travel, football en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-music-audience",
+      "geo": "CL",
+      "language": "es",
+      "category": "music",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de músicos artistas y sellos independientes vinculados a travel, football en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-teams-audience",
+      "geo": "CL",
+      "language": "es",
+      "category": "teams",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de clubes equipos ligas y federaciones vinculados a travel, football en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-events-audience",
+      "geo": "CL",
+      "language": "es",
+      "category": "events",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de torneos eventos carreras y festivales vinculados a travel, football en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-gaming_media-audience",
+      "geo": "CL",
+      "language": "es",
+      "category": "gaming_media",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de esports streamers podcasts y medios temáticos vinculados a travel, football en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-creators-adjacent",
+      "geo": "CL",
+      "language": "es",
+      "category": "creators",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de creadores y divulgadores con canales propios vinculados a astronomy, music, food en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-athletes-adjacent",
+      "geo": "CL",
+      "language": "es",
+      "category": "athletes",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de deportistas de disciplinas especializadas vinculados a astronomy, music, food en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-music-adjacent",
+      "geo": "CL",
+      "language": "es",
+      "category": "music",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de músicos artistas y sellos independientes vinculados a astronomy, music, food en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-teams-adjacent",
+      "geo": "CL",
+      "language": "es",
+      "category": "teams",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de clubes equipos ligas y federaciones vinculados a astronomy, music, food en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-events-adjacent",
+      "geo": "CL",
+      "language": "es",
+      "category": "events",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de torneos eventos carreras y festivales vinculados a astronomy, music, food en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-es-gaming_media-adjacent",
+      "geo": "CL",
+      "language": "es",
+      "category": "gaming_media",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Páginas oficiales de esports streamers podcasts y medios temáticos vinculados a astronomy, music, food en Chile, con contenido propio, audiencia y colaboraciones con marcas o auspiciadores",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "id": "CL-en-creators-direct",
+      "geo": "CL",
+      "language": "en",
+      "category": "creators",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of creators and experts with their own channels connected to running, triathlon, cycling in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-athletes-direct",
+      "geo": "CL",
+      "language": "en",
+      "category": "athletes",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of athletes in specialist sports connected to running, triathlon, cycling in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-music-direct",
+      "geo": "CL",
+      "language": "en",
+      "category": "music",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of musicians artists and independent labels connected to running, triathlon, cycling in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-teams-direct",
+      "geo": "CL",
+      "language": "en",
+      "category": "teams",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of clubs teams leagues and federations connected to running, triathlon, cycling in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-events-direct",
+      "geo": "CL",
+      "language": "en",
+      "category": "events",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of tournaments events races and festivals connected to running, triathlon, cycling in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-gaming_media-direct",
+      "geo": "CL",
+      "language": "en",
+      "category": "gaming_media",
+      "lane": "direct",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of esports streamers podcasts and specialist media connected to running, triathlon, cycling in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-creators-audience",
+      "geo": "CL",
+      "language": "en",
+      "category": "creators",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of creators and experts with their own channels connected to travel, football in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-athletes-audience",
+      "geo": "CL",
+      "language": "en",
+      "category": "athletes",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of athletes in specialist sports connected to travel, football in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-music-audience",
+      "geo": "CL",
+      "language": "en",
+      "category": "music",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of musicians artists and independent labels connected to travel, football in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-teams-audience",
+      "geo": "CL",
+      "language": "en",
+      "category": "teams",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of clubs teams leagues and federations connected to travel, football in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-events-audience",
+      "geo": "CL",
+      "language": "en",
+      "category": "events",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of tournaments events races and festivals connected to travel, football in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-gaming_media-audience",
+      "geo": "CL",
+      "language": "en",
+      "category": "gaming_media",
+      "lane": "audience",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of esports streamers podcasts and specialist media connected to travel, football in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-creators-adjacent",
+      "geo": "CL",
+      "language": "en",
+      "category": "creators",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of creators and experts with their own channels connected to astronomy, music, food in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-athletes-adjacent",
+      "geo": "CL",
+      "language": "en",
+      "category": "athletes",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of athletes in specialist sports connected to astronomy, music, food in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-music-adjacent",
+      "geo": "CL",
+      "language": "en",
+      "category": "music",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of musicians artists and independent labels connected to astronomy, music, food in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-teams-adjacent",
+      "geo": "CL",
+      "language": "en",
+      "category": "teams",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of clubs teams leagues and federations connected to astronomy, music, food in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-events-adjacent",
+      "geo": "CL",
+      "language": "en",
+      "category": "events",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of tournaments events races and festivals connected to astronomy, music, food in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    },
+    {
+      "id": "CL-en-gaming_media-adjacent",
+      "geo": "CL",
+      "language": "en",
+      "category": "gaming_media",
+      "lane": "adjacent",
+      "status": "planned",
+      "tool": "mcp__codex_apps__exa_web_search_exa",
+      "arguments": {
+        "query": "Official pages of esports streamers podcasts and specialist media connected to astronomy, music, food in Chile, with original content, audience and brand partnerships",
+        "numResults": 5,
+        "objective": "Discover identities and official URLs. Include niche and audience-adjacent properties. Search results are leads only: fetch sources. Do not invent audience GEO, price or availability; do not apply a follower threshold to clubs or events."
+      }
+    }
+  ],
+  "source_seeds": {
+    "CL": [
+      "https://ind.cl/unidad-de-grandes-eventos-deportivos-uged/",
+      "https://teamchile.cl/",
+      "https://www.patagonman.com/es/sponsors",
+      "https://www.santiagowanderers.cl/"
+    ]
+  },
+  "next_steps": [
+    "Выполнить scheduled через доступный поисковый MCP и записать журнал.",
+    "Прочитать выбранные страницы; максимум max_pages относится к страницам, а не числу batch-вызовов.",
+    "Вручную заполнить досье с фрагментами, датами и статусами.",
+    "Запустить review; проверить пробелы и провести ручную модерацию."
+  ]
+}

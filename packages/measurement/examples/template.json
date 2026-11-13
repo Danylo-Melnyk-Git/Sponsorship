@@ -1,0 +1,109 @@
+{
+  "schema_version": "measurement-1",
+  "kind": "planning",
+  "title": "Шаблон расчёта — заменить паспорт и предоставить источники",
+  "scope": {
+    "currency": "USD",
+    "territory": "ЗАМЕНИТЬ: география и пакет",
+    "outcome_unit": "добавочный клиент за указанное окно",
+    "period_start": "2026-01-01",
+    "period_end": "2026-12-31"
+  },
+  "economics": {
+    "cost_scope_complete": false,
+    "cost_scope_note": "Полнота ещё не проверена; даты и целевой ROI в шаблоне требуют замены.",
+    "margin_definition": "Маржа на добавочного клиента за окно после переменных затрат, возвратов и бонусов; без затрат кампании, перечисленных отдельно.",
+    "incremental_outcome_definition": "Гипотеза числа клиентов, которых не было бы без кампании, относительно контрфакта; не промокодные регистрации и не вся выручка.",
+    "target_roi": 0.2,
+    "costs": {
+      "rights_fee": {
+        "low": null,
+        "high": null,
+        "status": "unknown",
+        "source": "Не предоставлен",
+        "as_of": "2026-10-04",
+        "note": "Запросить исходные данные; неизвестное не ноль."
+      },
+      "production": {
+        "low": null,
+        "high": null,
+        "status": "unknown",
+        "source": "Не предоставлен",
+        "as_of": "2026-10-04",
+        "note": "Запросить исходные данные; неизвестное не ноль."
+      },
+      "activation": {
+        "low": null,
+        "high": null,
+        "status": "unknown",
+        "source": "Не предоставлен",
+        "as_of": "2026-10-04",
+        "note": "Запросить исходные данные; неизвестное не ноль."
+      },
+      "paid_media": {
+        "low": null,
+        "high": null,
+        "status": "unknown",
+        "source": "Не предоставлен",
+        "as_of": "2026-10-04",
+        "note": "Запросить исходные данные; неизвестное не ноль."
+      },
+      "measurement": {
+        "low": null,
+        "high": null,
+        "status": "unknown",
+        "source": "Не предоставлен",
+        "as_of": "2026-10-04",
+        "note": "Запросить исходные данные; неизвестное не ноль."
+      },
+      "travel_fees_taxes": {
+        "low": null,
+        "high": null,
+        "status": "unknown",
+        "source": "Не предоставлен",
+        "as_of": "2026-10-04",
+        "note": "Запросить исходные данные; неизвестное не ноль."
+      },
+      "internal_work": {
+        "low": null,
+        "high": null,
+        "status": "unknown",
+        "source": "Не предоставлен",
+        "as_of": "2026-10-04",
+        "note": "Запросить исходные данные; неизвестное не ноль."
+      },
+      "other": {
+        "low": null,
+        "high": null,
+        "status": "unknown",
+        "source": "Не предоставлен",
+        "as_of": "2026-10-04",
+        "note": "Запросить исходные данные; неизвестное не ноль."
+      }
+    },
+    "margin_per_outcome": {
+      "low": null,
+      "high": null,
+      "status": "unknown",
+      "source": "Не предоставлен",
+      "as_of": "2026-10-04",
+      "note": "Запросить исходные данные; неизвестное не ноль."
+    },
+    "incremental_outcomes": {
+      "low": null,
+      "high": null,
+      "status": "unknown",
+      "source": "Не предоставлен",
+      "as_of": "2026-10-04",
+      "note": "Запросить исходные данные; неизвестное не ноль."
+    },
+    "alternative_net": {
+      "low": null,
+      "high": null,
+      "status": "unknown",
+      "source": "Не предоставлен",
+      "as_of": "2026-10-04",
+      "note": "Запросить исходные данные; неизвестное не ноль."
+    }
+  }
+}

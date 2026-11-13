@@ -1,0 +1,48 @@
+{
+  "title": "Учебный подбор: аксессуары для активного отдыха",
+  "kind": "synthetic",
+  "request": "Учебный пример. Найти подходящий формат для аксессуаров активного отдыха в Чили. Все числа — придуманные условия для проверки арифметики.",
+  "brief": {
+    "company": "DEMO Outdoor",
+    "product": "Аксессуары для активного отдыха",
+    "goal": "action",
+    "geo": [
+      "CL"
+    ],
+    "audience": "Гипотеза: взрослые жители Чили, регулярно занимающиеся бегом и активным отдыхом",
+    "budget": {
+      "amount": 180000,
+      "currency": "USD",
+      "months": 12,
+      "scope": "all_in"
+    },
+    "restrictions": "Учебный пример; все сведения требуют проверки.",
+    "topics": {
+      "direct": [
+        "running",
+        "outdoor"
+      ],
+      "audience": [
+        "active lifestyle"
+      ],
+      "adjacent": [
+        {
+          "term": "travel",
+          "reason": "Гипотеза: использование аксессуаров в поездках; совпадение аудитории ещё проверить"
+        }
+      ]
+    },
+    "max_search_calls": 6,
+    "max_pages": 12,
+    "search_preferences": {
+      "capabilities": {
+        "content_owner": true,
+        "conversion_tracking": true,
+        "ongoing_owner": false,
+        "paid_media": false,
+        "event_team": null
+      },
+      "max_profiles": 3
+    }
+  }
+}
